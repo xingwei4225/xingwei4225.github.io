@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xingwei4225.github.io/second/</loc>
+    <lastmod>2018-07-31T15:29:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/first/</loc>
+    <lastmod>2018-07-31T15:14:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/about/</loc>
+    <lastmod>2018-07-31T15:12:40+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xingwei4225.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -14,6 +29,7 @@
   
   <url>
     <loc>https://xingwei4225.github.io/</loc>
+    <lastmod>2018-07-31T15:29:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   

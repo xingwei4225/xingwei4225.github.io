@@ -6,9 +6,38 @@
     <description>Recent content on 保多多文档中心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jul 2018 15:29:05 +0800</lastBuildDate>
     
 	<atom:link href="https://xingwei4225.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Second</title>
+      <link>https://xingwei4225.github.io/second/</link>
+      <pubDate>Tue, 31 Jul 2018 15:29:05 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/second/</guid>
+      <description> 会员中心 保多多会员中心
+开卡指南 </description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://xingwei4225.github.io/first/</link>
+      <pubDate>Tue, 31 Jul 2018 15:14:22 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/first/</guid>
+      <description> aaa bbb ccc  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://xingwei4225.github.io/about/</link>
+      <pubDate>Tue, 31 Jul 2018 15:12:40 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/about/</guid>
+      <description>欢迎使用行云天下保多多服务！</description>
+    </item>
     
   </channel>
 </rss>
