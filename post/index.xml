@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email post on DocDock 文档中心</title>
+    <link>http://xingwei4225.github.com/post/</link>
+    <description>Recent content in Email post on DocDock 文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://xingwei4225.github.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

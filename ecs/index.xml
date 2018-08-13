@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ecs on 保多多文档中心</title>
+    <title>ECS服务器 on 保多多—文档中心</title>
     <link>https://xingwei4225.github.io/ecs/</link>
-    <description>Recent content in Ecs on 保多多文档中心</description>
+    <description>Recent content in ECS服务器 on 保多多—文档中心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jul 2018 15:12:40 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2018 22:01:36 +0100</lastBuildDate>
     
 	<atom:link href="https://xingwei4225.github.io/ecs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>快速入门概述</title>
-      <link>https://xingwei4225.github.io/ecs/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%A6%82%E8%BF%B0/</link>
-      <pubDate>Tue, 31 Jul 2018 15:12:40 +0800</pubDate>
+      <title>快速入门</title>
+      <link>https://xingwei4225.github.io/ecs/start/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
       
-      <guid>https://xingwei4225.github.io/ecs/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%A6%82%E8%BF%B0/</guid>
+      <guid>https://xingwei4225.github.io/ecs/start/</guid>
       <description>个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：
  配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。
 云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。
@@ -26,10 +26,10 @@
     
     <item>
       <title>步骤1:配置选型</title>
-      <link>https://xingwei4225.github.io/ecs/%E6%AD%A5%E9%AA%A41%E9%85%8D%E7%BD%AE%E9%80%89%E5%9E%8B/</link>
-      <pubDate>Tue, 31 Jul 2018 15:12:40 +0800</pubDate>
+      <link>https://xingwei4225.github.io/ecs/step1/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
       
-      <guid>https://xingwei4225.github.io/ecs/%E6%AD%A5%E9%AA%A41%E9%85%8D%E7%BD%AE%E9%80%89%E5%9E%8B/</guid>
+      <guid>https://xingwei4225.github.io/ecs/step1/</guid>
       <description>步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。
 本文仅介绍适合个人用户的配置。
  入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。
