@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webchat on 保多多—文档中心</title>
+    <link>https://xingwei4225.github.io/tags/webchat/</link>
+    <description>Recent content in Webchat on 保多多—文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Aug 2018 10:47:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://xingwei4225.github.io/tags/webchat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>个人中心</title>
+      <link>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/</link>
+      <pubDate>Fri, 10 Aug 2018 10:47:27 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/</guid>
+      <description> 个人中心 保多多 v3.0.0 版本及以上  更换手机号 手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件 您已经下载保多多APP，并且已经注册登陆； 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；   修改个人信息  图片显示   </description>
+    </item>
+    
+  </channel>
+</rss>

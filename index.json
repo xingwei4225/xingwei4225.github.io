@@ -1,6 +1,6 @@
 [
 {
-	"uri": "https://xingwei4225.github.io/personal/change-mobile/",
+	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/",
 	"title": "更换手机号",
 	"tags": [],
 	"description": "",
@@ -21,9 +21,9 @@
 	"content": "HUGO v0.32 minimum required to use this theme The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners. Installation We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nBefore start real work:\n Initialize Hugo Install DocDock theme Configure DocDock and Hugo  Prepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site .  AFTER that, initialize this as git directory where to track further changes\n$ git init  Next, there are at least three ways to install DocDock (first recommended):\n As git submodule As git clone As direct copy (from ZIP)  Navigate to your themes folder in your Hugo site and use perform one of following scenarios.\n1. Install DocDock as git submodule DocDock will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nIf submodule is no-go, use 3rd option.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update  Now you are ready to add content and customize looks. Do not change any file inside theme directory.\nIf you want to freeze changes to DocDock theme itself and use still submodules, fork private copy of DocDock and use that as submodule. When you are ready to update theme, just pull changes from origin to your private fork.\n2. Install DocDock simply as git clone This method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  3. Install DocDock from ZIP All files from theme will be tracked inside parent repo, to update it, have to override files in theme.  download following zip and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docdock/archive/master.zip  Name of theme in next step will be hugo-theme-docdock-master, can rename as you wish.\nConfiguration Follow instructions here\n"
 },
 {
-	"uri": "https://xingwei4225.github.io/personal/",
+	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/",
 	"title": "个人中心",
-	"tags": [],
+	"tags": ["app", "webchat"],
 	"description": "个人信息管理",
 	"content": " 个人中心 保多多 v3.0.0 版本及以上  更换手机号 手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件 您已经下载保多多APP，并且已经注册登陆； 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；   修改个人信息  图片显示   "
 },
@@ -63,7 +63,7 @@
 	"content": " 步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。\n本文仅介绍适合个人用户的配置。\n 入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。\n 基础型： 1 vCPU 2 GiB内存（ecs.n4.small），搭配40 GiB高效云盘和2 Mbps公网带宽，适用于流量适中的网站、简单开发环境、代码存储库等。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 通用型： 2 vCPU 4 GiB内存（ecs.n4.large），搭配40 GiB高效云盘和2 Mbps公网带宽，能满足90%云计算初级用户的需求，适用于企业运营活动、并行计算应用、普通数据处理。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 进阶型： 4 vCPU 16 GiB内存（ecs.sn2ne.xlarge），搭配40 GiB高效云盘和5 Mbps公网带宽，适用于中大规模访问量的网站、分布式分析及计算场景和Web应用程序。关于实例规格的更多信息，请参见 实例规格族之 sn2ne。\n  这些推荐配置只是作为您开始使用云服务器ECS的参考。阿里云提供了灵活、可编辑的配置修改方式。如果在使用过程中，发现配置过高或过低，随时可以使用 升降配 修改配置。\n关于网站架构案例和应用场景的更多详细信息，请参考 网站解决方案。\n确定了配置方案后，您就可以开始创建云服务器ECS实例了。\n"
 },
 {
-	"uri": "https://xingwei4225.github.io/personal/update-info/",
+	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/",
 	"title": "修改个人信息",
 	"tags": [],
 	"description": "",
@@ -147,6 +147,13 @@
 	"content": ""
 },
 {
+	"uri": "https://xingwei4225.github.io/tags/app/",
+	"title": "App",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://xingwei4225.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -215,6 +222,13 @@
 	"tags": [],
 	"description": "change theme style/colors",
 	"content": " In site configuration file, you can set a variant name of this theme to load a specific css, with different color specifications.\nadd a param themeVariant = \u0026quot;VARIANT_NAME\u0026quot; in the [params] part of config.toml file.\nAvailable variants change only colors at this moment Variant \u0026ldquo;gray\u0026rdquo; [params] themeVariant = \u0026quot;gray\u0026quot;  Variant \u0026ldquo;gold\u0026rdquo; [params] themeVariant = \u0026quot;gold\u0026quot;  Variant \u0026ldquo;green\u0026rdquo; [params] themeVariant = \u0026quot;green\u0026quot;`  "
+},
+{
+	"uri": "https://xingwei4225.github.io/tags/webchat/",
+	"title": "Webchat",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://xingwei4225.github.io/shortcodes/alert/",
