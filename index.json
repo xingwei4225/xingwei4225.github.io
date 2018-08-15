@@ -1,10 +1,17 @@
 [
 {
-	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/",
+	"uri": "https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/",
 	"title": "更换手机号",
 	"tags": [],
 	"description": "",
 	"content": "手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件  您已经下载保多多APP，并且已经注册登陆；\n 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；\n    "
+},
+{
+	"uri": "https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/",
+	"title": "在线充值",
+	"tags": [],
+	"description": "银联充值、支付宝充值",
+	"content": "List of main characters\n"
 },
 {
 	"uri": "https://xingwei4225.github.io/content-organisation/logo/",
@@ -21,11 +28,11 @@
 	"content": "HUGO v0.32 minimum required to use this theme The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners. Installation We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nBefore start real work:\n Initialize Hugo Install DocDock theme Configure DocDock and Hugo  Prepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site .  AFTER that, initialize this as git directory where to track further changes\n$ git init  Next, there are at least three ways to install DocDock (first recommended):\n As git submodule As git clone As direct copy (from ZIP)  Navigate to your themes folder in your Hugo site and use perform one of following scenarios.\n1. Install DocDock as git submodule DocDock will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nIf submodule is no-go, use 3rd option.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update  Now you are ready to add content and customize looks. Do not change any file inside theme directory.\nIf you want to freeze changes to DocDock theme itself and use still submodules, fork private copy of DocDock and use that as submodule. When you are ready to update theme, just pull changes from origin to your private fork.\n2. Install DocDock simply as git clone This method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock  3. Install DocDock from ZIP All files from theme will be tracked inside parent repo, to update it, have to override files in theme.  download following zip and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docdock/archive/master.zip  Name of theme in next step will be hugo-theme-docdock-master, can rename as you wish.\nConfiguration Follow instructions here\n"
 },
 {
-	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/",
-	"title": "个人中心",
-	"tags": ["app", "webchat"],
-	"description": "个人信息管理",
-	"content": " 个人中心 保多多 v3.0.0 版本及以上  更换手机号 手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件 您已经下载保多多APP，并且已经注册登陆； 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；   修改个人信息  图片显示   "
+	"uri": "https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/",
+	"title": "开卡激活",
+	"tags": [],
+	"description": "申请——二发——激活",
+	"content": " 开卡激活常见问题 "
 },
 {
 	"uri": "https://xingwei4225.github.io/content-organisation/extramenu/",
@@ -49,32 +56,88 @@
 	"content": " You can change the style and behavior of the theme without touching it.\n inject your own html, css or js into the page overide existing css or js with your own files  No needs to copy the entire theme to customize some parts Bellow are solutions to avoid copying the entire theme into your own codebase.\n Add custom CSS and JS or HTML into the \u0026lt;head\u0026gt; part of each page : Create a custom header partial layouts/partials/custom-head.html\n  content/ layouts/  partials/  custom-head.html     write your own content like (an example from @nzbart):\n\u0026lt;link rel=\u0026#34;stylesheet\u0026#34; href=\u0026#34;/css/custom.css\u0026#34;\u0026gt; \u0026lt;script src=\u0026#34;/js/custom.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; Then overrode the style your want to change in static/css/custom.css (in this case, to avoid altering the casing of titles):\nh2 { text-transform: none; } And executed some additional JavaScript from static/js/custom.js (note that jQuery is already loaded by the theme):\nfunction tweakPage() { // make some changes here } $(tweakPage)  now feel free to add the JS, CSS, HTML code you want :)\nAdd custom HTML at the end of the body part of each page : Create a custom-footer.html into a layouts/partials folder next to the content folder\n  content/ layouts/  partials/  custom-footer.html     now feel free to add the JS, CSS, HTML code you want :)\nOveride existing CSS or JS Create the matching file in your static folder, hugo will use yours instead of the theme\u0026rsquo;s one. Example :\ncreate a theme.css and place it into static/css/ to fully overide docdock\u0026rsquo;s theme.css\n"
 },
 {
-	"uri": "https://xingwei4225.github.io/ecs/start/",
-	"title": "快速入门",
-	"tags": ["服务器1"],
+	"uri": "https://xingwei4225.github.io/order/test1/",
+	"title": "section layout",
+	"tags": [],
 	"description": "",
-	"content": " 个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：\n 配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。\n云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。\n读者对象 本文档作为快速入门参考，适用于有以下需求的读者：\n 了解如何购买云服务器 ECS 实例 远程登录实例、使用管理终端登录实例 格式化和/或挂载数据盘  本文档仅适用于控制台操作。如果您是 API 用户，请参考 API 概览。\n"
+	"content": "文档类主题模版\n主题特性  支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观    "
 },
 {
-	"uri": "https://xingwei4225.github.io/ecs/step1/",
-	"title": "步骤1:配置选型",
-	"tags": ["服务器1", "服务器2"],
+	"uri": "https://xingwei4225.github.io/guide/hugo/",
+	"title": "Hugo",
+	"tags": [],
 	"description": "",
-	"content": " 步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。\n本文仅介绍适合个人用户的配置。\n 入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。\n 基础型： 1 vCPU 2 GiB内存（ecs.n4.small），搭配40 GiB高效云盘和2 Mbps公网带宽，适用于流量适中的网站、简单开发环境、代码存储库等。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 通用型： 2 vCPU 4 GiB内存（ecs.n4.large），搭配40 GiB高效云盘和2 Mbps公网带宽，能满足90%云计算初级用户的需求，适用于企业运营活动、并行计算应用、普通数据处理。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 进阶型： 4 vCPU 16 GiB内存（ecs.sn2ne.xlarge），搭配40 GiB高效云盘和5 Mbps公网带宽，适用于中大规模访问量的网站、分布式分析及计算场景和Web应用程序。关于实例规格的更多信息，请参见 实例规格族之 sn2ne。\n  这些推荐配置只是作为您开始使用云服务器ECS的参考。阿里云提供了灵活、可编辑的配置修改方式。如果在使用过程中，发现配置过高或过低，随时可以使用 升降配 修改配置。\n关于网站架构案例和应用场景的更多详细信息，请参考 网站解决方案。\n确定了配置方案后，您就可以开始创建云服务器ECS实例了。\n"
+	"content": " hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。主要用于个人Blog、项目文档、初创公司站点构建。 1、结构 命令：hugo new site blog\nblog ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static ├── themes └── public  archetypes\n在通过hugo new xxx 创建内容页面的时候，默认情况下hugo会创建date、title等front matter，可以通过在archetypes目录下创建文件，设置自定义的front matter。\nconfig.toml\n所有的hugo站点都有一个全局配置文件，用来配置整个站点的信息，hugo默认提供了跟多配置指令。\ncontent\n站点下所有的内容页面，也就是我们创建的md文件都在这个content目录下面。\ndata\ndata目录用来存储网站用到一些配置、数据文件。文件类型可以是yaml|toml|json等格式。\nlayouts\n存放用来渲染content目录下面内容的模版文件，模版.html格式结尾，layouts可以同时存储在项目目录和themes//layouts目录下。layouts目录格式如下：\nlayouts ├── _default ├── partials ├── shortcodes ├── taxonomy └── section  section指的是content目录下面的section，如果在layouts目录下设置了section，会优先选择section下面的模版。\nstatic\n用来存储图片、css、js等静态资源文件。\nthemes\n用来存储主题，主题可以方便的帮助我们快速建立站点，也可以方便的切换网站的风格样式。\npublic\nhugo编译后生成网站的所有文件都存储在这里面，把这个目录放到任意web服务器就可以发布网站成功。\n2、内容 Page Bundles hugo中的内容组织是依赖Page Bundles来管理的。Page Bundles包括Leaf Bundle（没有子节点）和Branch Bundle（home page, section, taxonomy terms, taxonomy list）两类。\n    Leaf Bundle Branch Bundle     索引文件 index.md _index.md   布局类型 single list   嵌套 不允许嵌套 允许Leaf或Branch Bundle嵌套    官方文档：https://gohugo.io/content-management/page-bundles/#branch-bundles\nSection section是基于content/目录下的组织结构定义的页面集合。content/ 下的第一级子目录都是一个section。如果想让一个子目录成为section，需要在目录下面定义_index.md文件。 所有的section构成一个section tree。\ncontent └── blog \u0026lt;-- Section, because first-level dir under content/ ├── funny-cats │ ├── mypost.md │ └── kittens \u0026lt;-- Section, because contains _index.md │ └── _index.md └── tech \u0026lt;-- Section, because contains _index.md └── _index.md  如果section tree 需要可导航，至少最底层的部分需要定义一个_index.md文件。\n3、模版 Hugo以go语言的html/template库作为模版引擎，go html/template库速度快，体积小、逻辑简单、扩展性强。\nhugo将内容通过template渲染成html，模版作为内容和显示视图之间的桥梁。\nhugo由三种类型的模版：single、list and partial。\nHugo有一套自己的模版查找机制，如果找不到与内容完全匹配的模板，它将向上移动一级并从那里搜索。直到找到匹配的模板或用完模板来尝试。如果找不到模板，它将使用该站点的默认模板。\n  1. Single Template\nsingle template 用于渲染页面内容。\n2. List Template\nlist template 用于渲染一组相关内容，例如一个站点下所有内容，一个目录下的内容；\nhomepage 也就是_index.md，是一个特殊类型的list template，homepage实际上就是一个站点所有内容的入口。\n3. partial Template\npartial template 可以被其他模版引用，实际上可以理解为模版级别的组件，例如页面头部、页面底部等。\n3.1 模版查找规则 content下面的页面是怎么找到匹配的渲染模版的呢？ 基础模版查询规则 1. /layouts/section/\u0026lt;TYPE\u0026gt;-baseof.html 2. /themes/\u0026lt;THEME\u0026gt;/layouts/section/\u0026lt;TYPE\u0026gt;-baseof.html 3. /layouts/\u0026lt;TYPE\u0026gt;/baseof.html 4. /themes/\u0026lt;THEME\u0026gt;/layouts/\u0026lt;TYPE\u0026gt;/baseof.html 5. /layouts/section/baseof.html 6. /themes/\u0026lt;THEME\u0026gt;/layouts/section/baseof.html 7. /layouts/_default/\u0026lt;TYPE\u0026gt;-baseof.html 8. /themes/\u0026lt;THEME\u0026gt;/layouts/_default/\u0026lt;TYPE\u0026gt;-baseof.html 9. /layouts/_default/baseof.html 10. /themes/\u0026lt;THEME\u0026gt;/layouts/_default/baseof.html  页面模版查询规则 下面按照优先级顺序排列：\n1、kind\n判断页面是single page 还是 list page？\n如果是single page，会选择模版_default/single.html\n如果是list page（section listings, home page, taxonomy lists, taxonomy terms），会选择模版_default/list.html\n2、Output Format\n根据输出格式的名称和后缀，选择匹配的模版。例如输出格式是rss，后缀是.html,首先看有没有匹配的index.rss.html格式的模版。\n3、Language\n根据站点设置的语言选择匹配的模版，比如，站点的语言为fr，模版匹配的优先级是：index.fr.amp.html \u0026gt; index.amp.html \u0026gt; index.fr.html\n4、Layout\n可以在页面头部设置layout，设置页面用指定的模版进行渲染，例如，页面在目录posts（默认section）下面，layout=custom，查找规则如下：\n  layouts/posts/custom.html layouts/posts/single.html layouts/_default/custom.html layouts/_default/single.html   5. type\n如果在页面的头部设置了属性type属性，如果type=event，查找规则如下：\n  layouts/event/custom.html layouts/event/single.html layouts/events/single.html layouts/_default/single.html   官方文档：https://gohugo.io/templates/lookup-order/\n4、语法 go-template 基础语法\nblock  在父模版中通过{{ block \u0026quot;xxx\u0026quot;}} 定义一个块，在子模块中可以通过{{define \u0026quot;xxx\u0026quot;}} 定义的内容进行替换。\n模版定义  {{ define \u0026#34;chrome/header.html\u0026#34; }} \u0026lt;div\u0026gt;{{ .Site.Params.author}}\u0026lt;/div\u0026gt; {{ end }} 模版引用  方法一 ：partial（推荐使用）\n用于引入定义的局部模版，局部模版位置必须在themes/layouts/partials 或者layouts/partials目录下。\n{{ partial \u0026#34;chrome/header.html\u0026#34; . }} 方法二 ：template\ntemplate 在一些比较老的版本中用于引入定义的局部模版，现在在内部模版中仍然使用。\n{{ template \u0026#34;chrome/header.html\u0026#34; . }} {{- xxx -}}  -用于去除空格，例如：\n {{- xxx}用于去除{{- 前边的空格 {{ xxx -}用于去除-}}后边的空格 {{- xxx -}}用于去除两边的空格  Paginator  .Paginator主要用来构建菜单，只能在homePage、listPage中使用。\n{{ range .Paginator.Pages }} {{ .Title }} {{ end }}  5、短代码 短代码（shortcodes）相当于一些自定义模版，通过在md文档中引用，生成代码片段，类似于一些js框架中的组件。\n短代码必须在themes/layouts/partials 或者layouts/partials目录下定义。\n短代码在模版文件中引用是无效的，只能在content目录下的*.md文件中引用。\n引用方式\n{{% msshortcodes params1=\u0026quot;xxx\u0026quot; %}}**this** is a text{{% /msshortcodes %}} {{\u0026lt; msshortcodes params1=\u0026quot;xxx\u0026quot; \u0026gt;}} **Yeahhh !** is a text {{\u0026lt; /msshortcodes \u0026gt;}}   % 代表短代码中的内容需要进一步渲染 \u0026lt; 代表短代码中间的内容项不需要进一步渲染  官方文档：https://gohugo.io/content-management/shortcodes\n6、taxonomy hugo中通过taxonomy来实现用户对内容的分组。taxonomy需要在站点配置文件中定义：\n[taxonomies] category = \u0026quot;categories\u0026quot; tag = \u0026quot;tags\u0026quot; series = \u0026quot;series\u0026quot;  默认情况下，hugo提供了category、tag两个分类，不需要用户在配置文件中定义，但如果还有其他的taxonomy定义，则默认的tag、category也需要定义；\n使用方式\n 在站点配置文件中添加taxonomy,例如：series 定义taxonomy list template；例如，在layouts/taxonomy/series.html 在内容文件的front matter中设置term；例如，series = [\u0026ldquo;s1\u0026rdquo;,\u0026ldquo;s2\u0026rdquo;] 访问taxonomy列表，例如，localhost:1313/series/s1  7、变量 Hugo提供了很多不同类型变量用于创建模版，构建站点。 .Site 大部分站点变量定义在站点配置文件中（config.[yaml|toml|json] ）\n.Site.Menus:站点下的所有菜单\n.Site.Pages:站点下的所有页面\n.Site.Params: 站点下的参数\n.Page 页面级参数都定义在页面头部的front matter中，例如：\n+++ title = \u0026quot;Hugo\u0026quot; date = 2018-08-13T18:29:20+08:00 description = \u0026quot;\u0026quot; draft = false weight = 10 +++  使用方式\n{{ .Params.xxx }} 或者是 {{ .Site.Params.xxx }}   .Page.Content:当前页面的内容 .Page.Daga:特定于此页面的数据 .Page.Dir:相对于content目录的文件路径  8、格式 hugo的配置文件以及页面的front matter支持三种格式配置：toml、yaml、json，使用任意一种都可以;\ntoml\n+++ title = \u0026quot;QuickStart\u0026quot; date = \u0026quot;2017-04-24T18:36:24+02:00\u0026quot; +++  yaml\n--- title : \u0026#34;QuickStart\u0026#34; date : \u0026#34;2017-04-24T18:36:24+02:00\u0026#34; --- json\n{ title : \u0026quot;QuickStart\u0026quot; date : \u0026quot;2017-04-24T18:36:24+02:00\u0026quot; }  "
 },
 {
-	"uri": "https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/",
+	"uri": "https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/",
 	"title": "修改个人信息",
 	"tags": [],
 	"description": "",
 	"content": " 图片显示 "
 },
 {
-	"uri": "https://xingwei4225.github.io/ecs/",
-	"title": "ECS服务器",
+	"uri": "https://xingwei4225.github.io/etc/",
+	"title": "ETC办理",
 	"tags": [],
-	"description": "如何开通购买服务器",
+	"description": "ETC开卡、在线充值、查账单、工单处理",
 	"content": "List of main characters\n"
+},
+{
+	"uri": "https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/",
+	"title": "ETC申请",
+	"tags": ["etc"],
+	"description": "",
+	"content": " 个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：\n 配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。\n云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。\n读者对象 本文档作为快速入门参考，适用于有以下需求的读者：\n 了解如何购买云服务器 ECS 实例 远程登录实例、使用管理终端登录实例 格式化和/或挂载数据盘  本文档仅适用于控制台操作。如果您是 API 用户，请参考 API 概览。\n"
+},
+{
+	"uri": "https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/",
+	"title": "常见问题",
+	"tags": [],
+	"description": "",
+	"content": " 步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。\n本文仅介绍适合个人用户的配置。\n 入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。\n 基础型： 1 vCPU 2 GiB内存（ecs.n4.small），搭配40 GiB高效云盘和2 Mbps公网带宽，适用于流量适中的网站、简单开发环境、代码存储库等。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 通用型： 2 vCPU 4 GiB内存（ecs.n4.large），搭配40 GiB高效云盘和2 Mbps公网带宽，能满足90%云计算初级用户的需求，适用于企业运营活动、并行计算应用、普通数据处理。关于实例规格的更多信息，请参见 实例规格族之 n4。\n 进阶型： 4 vCPU 16 GiB内存（ecs.sn2ne.xlarge），搭配40 GiB高效云盘和5 Mbps公网带宽，适用于中大规模访问量的网站、分布式分析及计算场景和Web应用程序。关于实例规格的更多信息，请参见 实例规格族之 sn2ne。\n  这些推荐配置只是作为您开始使用云服务器ECS的参考。阿里云提供了灵活、可编辑的配置修改方式。如果在使用过程中，发现配置过高或过低，随时可以使用 升降配 修改配置。\n关于网站架构案例和应用场景的更多详细信息，请参考 网站解决方案。\n确定了配置方案后，您就可以开始创建云服务器ECS实例了。\n"
+},
+{
+	"uri": "https://xingwei4225.github.io/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/",
+	"title": "会员中心",
+	"tags": [],
+	"description": "",
+	"content": "会员中心用户手册\n"
+},
+{
+	"uri": "https://xingwei4225.github.io/order/test2/",
+	"title": "section only",
+	"tags": [],
+	"description": "",
+	"content": "test2\n"
+},
+{
+	"uri": "https://xingwei4225.github.io/guide/docdock/",
+	"title": "Docdock",
+	"tags": [],
+	"description": "",
+	"content": " 文档类主题模版\n主题特性  支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观    page front matter title = \u0026#34;Test page\u0026#34; description = \u0026#34;\u0026#34; date = \u0026#34;2017-04-24T18:36:24+02:00\u0026#34; creatordisplayname = \u0026#34;Valere JEANTET\u0026#34; creatoremail = \u0026#34;valere.jeantet@gmail.com\u0026#34; lastmodifierdisplayname = \u0026#34;Valere JEANTET\u0026#34; lastmodifieremail = \u0026#34;valere.jeantet@gmail.com\u0026#34; tags = [\u0026#34;tag1\u0026#34;,\u0026#34;tag2\u0026#34;] categories = [\u0026#34;cat1\u0026#34;,\u0026#34;cat2\u0026#34;] weight = 90  title：首字母必须大写，页面才会在目录结构中显示； weight：表示页面在当前目录的显示顺序，数字越小显示越靠前 date：当前页面的更新时间 pre：菜单图标，pre =\u0026quot;\u0026lt;i class='fa fa-vcard-o' \u0026gt;\u0026lt;/i\u0026gt; \u0026quot; tags: 标签，由hugo默认提供 categories:分类，由hugo默认提供  "
+},
+{
+	"uri": "https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/",
+	"title": "用户中心",
+	"tags": [],
+	"description": "个人信息管理",
+	"content": " 个人中心 保多多 v3.0.0 版本及以上  更换手机号 手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件 您已经下载保多多APP，并且已经注册登陆； 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；   修改个人信息  图片显示   "
+},
+{
+	"uri": "https://xingwei4225.github.io/%E8%BD%A6%E9%A9%BE%E7%AE%A1/",
+	"title": "车驾管",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://xingwei4225.github.io/%E4%BF%9D%E9%99%A9%E4%B8%9A%E5%8A%A1/",
+	"title": "保险业务",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://xingwei4225.github.io/create-page/",
@@ -105,11 +168,18 @@
 	"content": "A bunch of Shortcodes are available with this theme :\n alert The alert shortcode allows you to highlight information in your page.\n  attachments The Attachments shortcode displays a list of files attached to a page.\n  button Display an actionable button in your page.\n  children List the child pages of a page\n  excerpt The Excerpt shortcode is used to mark a part of a page\u0026#39;s content for re-use.\n  excerpt-include The Excerpt Include shortcode is used to display \u0026lsquo;excerpted\u0026rsquo; (that is, a segment of) content from one page in another. Before you can use this shortcode, the excerpt must have been defined using the Excerpt shortcode. Note that you can have more than one Excerpt Include shortcode on a page (although you can have only one Excerpt shortcode on a page). Usage Parameter Default Description filename required Type the filename of the page that contains the excerpt to be displayed.\n  expand Displays an expandable/collapsible section of text on your page\n  icon Display an icon.\n  mermaid Flowchart example Show code ... {{\u0026lt;mermaid align=\u0026quot;left\u0026quot;\u0026gt;}} graph LR; A[Hard edge] --\u0026gt;|Link text| B(Round edge) B --\u0026gt; C{Decision} C --\u0026gt;|One| D[Result one] C --\u0026gt;|Two| E[Result two] {{\u0026lt; /mermaid \u0026gt;}} mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two] Sequence example Show code ... {{\u0026lt;mermaid\u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u0026gt;\u0026gt;John: Hello John, how are you?\n  notice Disclaimers to help you structure your page\n  panel Allow you to highlight information or put it in a box.\n  revealjs present content as a reveal.js slide\n  "
 },
 {
-	"uri": "https://xingwei4225.github.io/search/",
-	"title": "About the Search Engine",
+	"uri": "https://xingwei4225.github.io/guide/",
+	"title": "教程",
+	"tags": [],
+	"description": "快速入门手册",
+	"content": "  Hugo hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。主要用于个人Blog、项目文档、初创公司站点构建。 1、结构 命令：hugo new site blog blog ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static ├── themes └── public archetypes 在通过hugo new xxx 创建内容页面的时候，默认情况下hugo会创建date、title等front matter，可以通过在archetypes目录下创建文件，设置自定义的front matter。 config.toml 所有的hugo站点都有一个全局配置文件，用来配置整个站点的信息，hugo默认提供了跟多配置指令。 content 站点下所有的内容页面，也就是我们创建的md文件都在这个content目录下面。 data data目录用来存储网站用到一些配置、数据文件。文件类型可以是yaml|toml|json等格式。 layouts 存放用来渲染content目录下面内容的模版文件，模版.html格式结尾，layouts可以同时存储在项目目录和themes//layouts目录下。layouts目录格式如下： layouts ├── _default ├── partials ├── shortcodes ├── taxonomy └── section section指的是content目录下面的section，如果在layouts目录下设置了section，会优先选择section下面的模版。 static 用来存储图片、css、js等静态资源文件。 themes 用来存储主题，主题可以方便的帮助我们快速建立站点，也可以方便的切换网站的风格样式。 public hugo编译后生成网站的所有文件都存储在这里面，把这个目录放到任意web服务器就可以发布网站成功。 2、内容 Page Bundles hugo中的内容组织是依赖Page Bundles来管理的。Page Bundles包括Leaf Bundle（没有子节点）和Branch Bundle（home page, section, taxonomy terms, taxonomy list）两类。\n  Docdock  文档类主题模版 主题特性 支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观 page front matter title = \u0026#34;Test page\u0026#34; description = \u0026#34;\u0026#34; date = \u0026#34;2017-04-24T18:36:24+02:00\u0026#34; creatordisplayname = \u0026#34;Valere JEANTET\u0026#34; creatoremail = \u0026#34;valere.jeantet@gmail.com\u0026#34; lastmodifierdisplayname = \u0026#34;Valere JEANTET\u0026#34; lastmodifieremail = \u0026#34;valere.jeantet@gmail.com\u0026#34; tags = [\u0026#34;tag1\u0026#34;,\u0026#34;tag2\u0026#34;] categories = [\u0026#34;cat1\u0026#34;,\u0026#34;cat2\u0026#34;] weight = 90 title：首字母必须大写，页面才会在目录结构中显示； weight：表示页面在当前目录的显示顺序，数字越小显示越靠前 date：当前页面的更新时间 pre：菜单图标，pre =\u0026quot;\u0026lt;i class='fa fa-vcard-o' \u0026gt;\u0026lt;/i\u0026gt; \u0026quot; tags: 标签，由hugo默认提供 categories:分类，由hugo默认提供   "
+},
+{
+	"uri": "https://xingwei4225.github.io/order/",
+	"title": "练习",
 	"tags": [],
 	"description": "",
-	"content": " Activate search If not already present, add the follow lines to the config.toml file.\n[outputs] home = [ \u0026#34;HTML\u0026#34;, \u0026#34;RSS\u0026#34;, \u0026#34;JSON\u0026#34;] Docdock theme uses the last improvement available in hugo version 20+ to generate a json index file ready to be consumed by lunr.js javascript search engine.\n hugo generate lunrjs index.json at the root of public folder if the site only has one language or within each language subfolder. When you build the site with hugo server, hugo generates it internally and of course it don\u0026rsquo;t show up in the filesystem "
+	"content": ""
 },
 {
 	"uri": "https://xingwei4225.github.io/create-page/homepage/",
@@ -147,8 +217,22 @@
 	"content": ""
 },
 {
-	"uri": "https://xingwei4225.github.io/tags/app/",
-	"title": "App",
+	"uri": "https://xingwei4225.github.io/apps/",
+	"title": "Apps",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://xingwei4225.github.io/categories/cat1/",
+	"title": "Cat1",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://xingwei4225.github.io/categories/cat2/",
+	"title": "Cat2",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -175,18 +259,25 @@
 	"content": " You can disable feature in docdock by changing some params in config.toml\nhide Next / Prev Chevrons [params] disableNavChevron = true  hide Search box in side menu [params] disableSearch = true  hide the  icon in side bar [params] disableHomeIcon = true  "
 },
 {
-	"uri": "https://xingwei4225.github.io/",
-	"title": "DocDock Theme for Hugo",
-	"tags": [],
-	"description": "",
-	"content": " Hugo docDock theme Hugo-theme-docdock   is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, this theme is fully designed for documentation.\nThis theme is a partial porting of the Learn theme of matcornic  . and its default style \u0026ldquo;flex\u0026rdquo; comes from facette.io\u0026rsquo;s documentation.\ndocDock works with a \u0026ldquo;page tree structure\u0026rdquo; to organize content : All contents are pages, which belong to other pages. read more about this  Main features  Automatic Search Unlimited menu levels Generate RevealJS presentation from markdown (embededed or fullscreen page) Automatic next/prev buttons to navigate through menu entries Image resizing, shadow\u0026hellip; Attachments files List child pages Excerpt ! Include segment of content from one page in another Mermaid diagram (flowchart, sequence, gantt) Icons, Buttons, Alerts, Panels, Tip/Note/Info/Warning boxes, Expand customizable look and feel, theme style, theme variants  Style \u0026ldquo;Flex\u0026rdquo; (default)\nStyle \u0026ldquo;Original\u0026rdquo;\nContribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it Your modification will be deployed automatically when merged. Documentation website This current documentation has been statically generated with Hugo with a simple command : hugo -t docdock \u0026ndash; source code is available here at GitHub  \nAutomated deployments Automatically published and hosted thanks to Netlify.\nRead more about Automated HUGO deployments with Netlify\n Netlify builds, deploys, and hosts frontends.  "
-},
-{
 	"uri": "https://xingwei4225.github.io/showcase/",
 	"title": "Docdock-built Sites",
 	"tags": [],
 	"description": "Hugo-built Sites with docdock theme",
 	"content": " https://invincible.site/ by @shazic https://bitfan.io/ by @vjeantet "
+},
+{
+	"uri": "https://xingwei4225.github.io/tags/etc/",
+	"title": "Etc",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://xingwei4225.github.io/apps/native/",
+	"title": "Native",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://xingwei4225.github.io/tags/tag1/",
@@ -224,7 +315,7 @@
 	"content": " In site configuration file, you can set a variant name of this theme to load a specific css, with different color specifications.\nadd a param themeVariant = \u0026quot;VARIANT_NAME\u0026quot; in the [params] part of config.toml file.\nAvailable variants change only colors at this moment Variant \u0026ldquo;gray\u0026rdquo; [params] themeVariant = \u0026quot;gray\u0026quot;  Variant \u0026ldquo;gold\u0026rdquo; [params] themeVariant = \u0026quot;gold\u0026quot;  Variant \u0026ldquo;green\u0026rdquo; [params] themeVariant = \u0026quot;green\u0026quot;`  "
 },
 {
-	"uri": "https://xingwei4225.github.io/tags/webchat/",
+	"uri": "https://xingwei4225.github.io/apps/webchat/",
 	"title": "Webchat",
 	"tags": [],
 	"description": "",
@@ -385,15 +476,22 @@
 	"content": " This shortcode will format the enclosed markdow to render it with reveal.js at runtime (client-side)\nRead more on revealjs github repo.\nUsage revealjs can use the following named parameters :\n theme transition controls progress history center  Important Even if the enclosed content is a mardown, use \u0026lt; shortcode notation instead of the % notation  Content formating and slide delimiters read more on this here\nDemo  # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep       function initSlides() { Reveal.initialize({ embedded : true, controls : false, center: true ,\thistory: false , progress: \"true\" , transition: \"concave\", dependencies: [ { src: '\\/revealjs\\/lib\\/js\\/classList.js\"', condition: function() { return !document.body.classList; } }, { src: '\\/revealjs\\/plugin\\/markdown\\/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, { src: '\\/revealjs\\/plugin\\/markdown\\/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }, { src: '\\/revealjs\\/plugin\\/highlight\\/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }, { src: '\\/revealjs\\/plugin\\/zoom-js\\/zoom.js', async: true, condition: function() { return !!document.body.classList; } }, { src: '\\/revealjs\\/plugin\\/notes\\/notes.js', async: true, condition: function() { return !!document.body.classList; } } ] }); }   See it fullscreen var toto = document.getElementById('slideContent').innerHTML document.getElementById('slideFrame').contentWindow.document.write(document.getElementById('slideContent').innerHTML); document.getElementById('slideContent').remove(); document.addEventListener(\"DOMContentLoaded\",function(){ setTimeout(function () { document.getElementById('slideFrame').contentWindow.initSlides() ; }, 2000); }); function slideFullScreen() { document.open(); document.write(toto); document.close(); initSlides() }  Source :   Show code ...   {{\u0026lt;revealjs theme=\u0026quot;moon\u0026quot; progress=\u0026quot;true\u0026quot;\u0026gt;}} # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep {{\u0026lt;revealjs\u0026gt;}}   \n  click here to view raw content  "
 },
 {
-	"uri": "https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A81/",
-	"title": "服务器1",
+	"uri": "https://xingwei4225.github.io/",
+	"title": "保多多—帮助与文档中心",
+	"tags": [],
+	"description": "",
+	"content": " 保多多—帮助与文档中心 保多多平台各类业务的办理流程、售后服务帮助中心。\n使用对象 产品用户、运营人员、线上客服 适用产品    手机APP(保多多, 行云天下商家, 保多多顾问)   微信公众号（保多多，保多多大使） 支付宝城市服务（车主服务） 微信小程序（保多多周末游、保多多路况、自导自游）  编制原则  文档的目录结构按照业务类型进行划分，例如：ETC业务，车驾管业务，保险业务，用户中心，会员业务等； 目录和文档可以使用中文命名，但中间尽量不要有空格; 图片统一存储在阿里云OSS上面，文档中通过URL地址进行引用，除了项目本身渲染样式之外，不允许在项目目录中存储文件、图片； 页面头部的title属性中的首字母必须大写，菜单栏才会显示目录结构    "
+},
+{
+	"uri": "https://xingwei4225.github.io/apps/%E6%94%AF%E4%BB%98%E5%AE%9D/",
+	"title": "支付宝",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A82/",
-	"title": "服务器2",
+	"uri": "https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A81/",
+	"title": "服务器1",
 	"tags": [],
 	"description": "",
 	"content": ""

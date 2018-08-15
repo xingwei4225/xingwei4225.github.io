@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开卡激活 on 保多多—帮助与文档中心</title>
+    <link>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/</link>
+    <description>Recent content in 开卡激活 on 保多多—帮助与文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Aug 2018 22:01:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ETC申请</title>
+      <link>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</guid>
+      <description>个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：
+ 配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。
+云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。
+读者对象 本文档作为快速入门参考，适用于有以下需求的读者：
+ 了解如何购买云服务器 ECS 实例 远程登录实例、使用管理终端登录实例 格式化和/或挂载数据盘  本文档仅适用于控制台操作。如果您是 API 用户，请参考 API 概览。</description>
+    </item>
+    
+  </channel>
+</rss>

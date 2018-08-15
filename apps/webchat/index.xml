@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webchat on 保多多—帮助与文档中心</title>
+    <link>https://xingwei4225.github.io/apps/webchat/</link>
+    <description>Recent content in Webchat on 保多多—帮助与文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://xingwei4225.github.io/apps/webchat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ETC申请</title>
+      <link>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</guid>
+      <description>个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：
+ 配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。
+云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。
+读者对象 本文档作为快速入门参考，适用于有以下需求的读者：
+ 了解如何购买云服务器 ECS 实例 远程登录实例、使用管理终端登录实例 格式化和/或挂载数据盘  本文档仅适用于控制台操作。如果您是 API 用户，请参考 API 概览。</description>
+    </item>
+    
+    <item>
+      <title>常见问题</title>
+      <link>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
+      <description>步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。
+本文仅介绍适合个人用户的配置。
+ 入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。
+ 基础型： 1 vCPU 2 GiB内存（ecs.n4.small），搭配40 GiB高效云盘和2 Mbps公网带宽，适用于流量适中的网站、简单开发环境、代码存储库等。关于实例规格的更多信息，请参见 实例规格族之 n4。
+ 通用型： 2 vCPU 4 GiB内存（ecs.n4.large），搭配40 GiB高效云盘和2 Mbps公网带宽，能满足90%云计算初级用户的需求，适用于企业运营活动、并行计算应用、普通数据处理。关于实例规格的更多信息，请参见 实例规格族之 n4。
+ 进阶型： 4 vCPU 16 GiB内存（ecs.sn2ne.xlarge），搭配40 GiB高效云盘和5 Mbps公网带宽，适用于中大规模访问量的网站、分布式分析及计算场景和Web应用程序。关于实例规格的更多信息，请参见 实例规格族之 sn2ne。
+  这些推荐配置只是作为您开始使用云服务器ECS的参考。阿里云提供了灵活、可编辑的配置修改方式。如果在使用过程中，发现配置过高或过低，随时可以使用 升降配 修改配置。
+关于网站架构案例和应用场景的更多详细信息，请参考 网站解决方案。
+确定了配置方案后，您就可以开始创建云服务器ECS实例了。</description>
+    </item>
+    
+    <item>
+      <title>用户中心</title>
+      <link>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/</link>
+      <pubDate>Fri, 10 Aug 2018 10:47:27 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/</guid>
+      <description> 个人中心 保多多 v3.0.0 版本及以上  更换手机号 手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件 您已经下载保多多APP，并且已经注册登陆； 通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；   修改个人信息  图片显示   </description>
+    </item>
+    
+  </channel>
+</rss>

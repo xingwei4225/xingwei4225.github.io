@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>练习 on 保多多—帮助与文档中心</title>
+    <link>https://xingwei4225.github.io/order/</link>
+    <description>Recent content in 练习 on 保多多—帮助与文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Aug 2018 18:21:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://xingwei4225.github.io/order/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>section layout</title>
+      <link>https://xingwei4225.github.io/order/test1/</link>
+      <pubDate>Mon, 13 Aug 2018 18:29:32 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/order/test1/</guid>
+      <description>文档类主题模版
+主题特性  支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观    </description>
+    </item>
+    
+    <item>
+      <title>section only</title>
+      <link>https://xingwei4225.github.io/order/test2/</link>
+      <pubDate>Tue, 14 Aug 2018 18:23:37 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/order/test2/</guid>
+      <description>test2</description>
+    </item>
+    
+  </channel>
+</rss>

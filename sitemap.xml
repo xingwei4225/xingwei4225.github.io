@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
+    <loc>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
     <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/</loc>
+    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
@@ -17,8 +22,8 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/</loc>
-    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+    <loc>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/</loc>
+    <lastmod>2018-08-12T22:01:36+01:00</lastmod>
   </url>
   
   <url>
@@ -35,23 +40,63 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/ecs/start/</loc>
-    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <loc>https://xingwei4225.github.io/order/test1/</loc>
+    <lastmod>2018-08-13T18:29:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/ecs/step1/</loc>
-    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <loc>https://xingwei4225.github.io/guide/hugo/</loc>
+    <lastmod>2018-08-13T18:29:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</loc>
+    <loc>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</loc>
     <lastmod>2018-08-10T11:13:56+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/ecs/</loc>
+    <loc>https://xingwei4225.github.io/etc/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</loc>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2018-08-13T11:27:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/order/test2/</loc>
+    <lastmod>2018-08-14T18:23:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/guide/docdock/</loc>
+    <lastmod>2018-08-13T18:29:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/%E8%BD%A6%E9%A9%BE%E7%AE%A1/</loc>
+    <lastmod>2018-08-13T11:26:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/%E4%BF%9D%E9%99%A9%E4%B8%9A%E5%8A%A1/</loc>
+    <lastmod>2018-08-13T11:32:58+08:00</lastmod>
   </url>
   
   <url>
@@ -74,7 +119,13 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/search/</loc>
+    <loc>https://xingwei4225.github.io/guide/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/order/</loc>
+    <lastmod>2018-08-14T18:21:32+08:00</lastmod>
   </url>
   
   <url>
@@ -102,8 +153,17 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/tags/app/</loc>
-    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+    <loc>https://xingwei4225.github.io/apps/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/categories/cat1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/categories/cat2/</loc>
     <priority>0</priority>
   </url>
   
@@ -121,12 +181,19 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/</loc>
-    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+    <loc>https://xingwei4225.github.io/showcase/</loc>
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/showcase/</loc>
+    <loc>https://xingwei4225.github.io/tags/etc/</loc>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/apps/native/</loc>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -143,7 +210,7 @@
   
   <url>
     <loc>https://xingwei4225.github.io/tags/</loc>
-    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,8 +223,8 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/tags/webchat/</loc>
-    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+    <loc>https://xingwei4225.github.io/apps/webchat/</loc>
+    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -250,14 +317,18 @@
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A81/</loc>
-    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <loc>https://xingwei4225.github.io/</loc>
+    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xingwei4225.github.io/apps/%E6%94%AF%E4%BB%98%E5%AE%9D/</loc>
+    <lastmod>2018-08-10T10:47:27+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A82/</loc>
-    <lastmod>2018-01-28T21:48:10+01:00</lastmod>
+    <loc>https://xingwei4225.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A81/</loc>
     <priority>0</priority>
   </url>
   

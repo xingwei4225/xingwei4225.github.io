@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DocDock Theme for Hugo on 保多多—文档中心</title>
+    <title>保多多—帮助与文档中心</title>
     <link>https://xingwei4225.github.io/</link>
-    <description>Recent content in DocDock Theme for Hugo on 保多多—文档中心</description>
+    <description>Recent content on 保多多—帮助与文档中心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Aug 2018 10:47:27 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>更换手机号</title>
-      <link>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</link>
+      <link>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</link>
       <pubDate>Fri, 10 Aug 2018 10:47:27 +0800</pubDate>
       
-      <guid>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</guid>
+      <guid>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%8D%A2%E6%89%8B%E6%9C%BA%E5%8F%B7/</guid>
       <description>手机号在本平台除了作为登陆依据外，也是ETC消费提醒、违章提醒等业务短信通知的凭证，更换后可能会对上述业务造成一定影响，有问题可以咨询线上客服解决。 前提条件  您已经下载保多多APP，并且已经注册登陆；
  通过微信、支付宝等方式登陆的用户，假设您已经绑定了手机号；
     </description>
@@ -71,11 +71,57 @@ Example from the current website, note the pre param which allows you to insert 
     </item>
     
     <item>
-      <title>快速入门</title>
-      <link>https://xingwei4225.github.io/ecs/start/</link>
+      <title>section layout</title>
+      <link>https://xingwei4225.github.io/order/test1/</link>
+      <pubDate>Mon, 13 Aug 2018 18:29:32 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/order/test1/</guid>
+      <description>文档类主题模版
+主题特性  支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观    </description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://xingwei4225.github.io/guide/hugo/</link>
+      <pubDate>Mon, 13 Aug 2018 18:29:20 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/guide/hugo/</guid>
+      <description>hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。主要用于个人Blog、项目文档、初创公司站点构建。 1、结构 命令：hugo new site blog
+blog ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static ├── themes └── public  archetypes
+在通过hugo new xxx 创建内容页面的时候，默认情况下hugo会创建date、title等front matter，可以通过在archetypes目录下创建文件，设置自定义的front matter。
+config.toml
+所有的hugo站点都有一个全局配置文件，用来配置整个站点的信息，hugo默认提供了跟多配置指令。
+content
+站点下所有的内容页面，也就是我们创建的md文件都在这个content目录下面。
+data
+data目录用来存储网站用到一些配置、数据文件。文件类型可以是yaml|toml|json等格式。
+layouts
+存放用来渲染content目录下面内容的模版文件，模版.html格式结尾，layouts可以同时存储在项目目录和themes//layouts目录下。layouts目录格式如下：
+layouts ├── _default ├── partials ├── shortcodes ├── taxonomy └── section  section指的是content目录下面的section，如果在layouts目录下设置了section，会优先选择section下面的模版。
+static
+用来存储图片、css、js等静态资源文件。
+themes
+用来存储主题，主题可以方便的帮助我们快速建立站点，也可以方便的切换网站的风格样式。
+public
+hugo编译后生成网站的所有文件都存储在这里面，把这个目录放到任意web服务器就可以发布网站成功。
+2、内容 Page Bundles hugo中的内容组织是依赖Page Bundles来管理的。Page Bundles包括Leaf Bundle（没有子节点）和Branch Bundle（home page, section, taxonomy terms, taxonomy list）两类。</description>
+    </item>
+    
+    <item>
+      <title>修改个人信息</title>
+      <link>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Fri, 10 Aug 2018 11:13:56 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</guid>
+      <description> 图片显示 </description>
+    </item>
+    
+    <item>
+      <title>ETC申请</title>
+      <link>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</link>
       <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
       
-      <guid>https://xingwei4225.github.io/ecs/start/</guid>
+      <guid>https://xingwei4225.github.io/etc/%E5%BC%80%E5%8D%A1%E6%BF%80%E6%B4%BB/etc%E7%94%B3%E8%AF%B7/</guid>
       <description>个人版快速入门概述 快速入门流程 一般购买和使用云服务器 ECS 实例遵循以下步骤：
  配置选型 创建实例 远程连接实例 如果是 Linux 实例，格式化和挂载数据盘 ；如果是 Windows 实例，格式化数据盘  文档目的 本文档介绍了如何快速创建实例、远程连接实例、格式化数据盘等。旨在引导您一站式完成实例的创建、登录和格式化数据盘。
 云服务器 ECS 实例，有时候也被称为阿里云服务器、云服务器、云服务器 ECS 等。为避免引起误解，本文一律使用 云服务器 ECS 实例 这一名称，简称 实例。
@@ -84,11 +130,11 @@ Example from the current website, note the pre param which allows you to insert 
     </item>
     
     <item>
-      <title>步骤1:配置选型</title>
-      <link>https://xingwei4225.github.io/ecs/step1/</link>
+      <title>常见问题</title>
+      <link>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
       
-      <guid>https://xingwei4225.github.io/ecs/step1/</guid>
+      <guid>https://xingwei4225.github.io/etc/%E5%9C%A8%E7%BA%BF%E5%85%85%E5%80%BC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
       <description>步骤 1：配置选型 阿里云提供了10大分类、200多款实例规格来满足用户在不同应用场景、不同业务负载下的性能需求，详情请参见 实例规格族。
 本文仅介绍适合个人用户的配置。
  入门型： 1 vCPU 1 GiB 内存（ecs.xn4.small），搭配40 GiB 高效云盘和 1 Mbps 公网带宽，适用于访问量较小的个人网站初级阶段。关于实例规格的更多信息，请参见 xn4 实例规格。
@@ -101,12 +147,22 @@ Example from the current website, note the pre param which allows you to insert 
     </item>
     
     <item>
-      <title>修改个人信息</title>
-      <link>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</link>
-      <pubDate>Fri, 10 Aug 2018 11:13:56 +0800</pubDate>
+      <title>section only</title>
+      <link>https://xingwei4225.github.io/order/test2/</link>
+      <pubDate>Tue, 14 Aug 2018 18:23:37 +0800</pubDate>
       
-      <guid>https://xingwei4225.github.io/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</guid>
-      <description> 图片显示 </description>
+      <guid>https://xingwei4225.github.io/order/test2/</guid>
+      <description>test2</description>
+    </item>
+    
+    <item>
+      <title>Docdock</title>
+      <link>https://xingwei4225.github.io/guide/docdock/</link>
+      <pubDate>Mon, 13 Aug 2018 18:29:32 +0800</pubDate>
+      
+      <guid>https://xingwei4225.github.io/guide/docdock/</guid>
+      <description> 文档类主题模版
+主题特性  支持搜索 无限级菜单 嵌入式页面全屏（Reveal Js） 支持附件文件 显示子页面 可以在其他页面引用当前页面的一部分内容 自动支持上一页、下一页面 图表绘制 提供图标、按钮、提示、通知、面板等多种工具 图片缩放、阴影显示 可自定制外观    page front matter title = &amp;#34;Test page&amp;#34; description = &amp;#34;&amp;#34; date = &amp;#34;2017-04-24T18:36:24+02:00&amp;#34; creatordisplayname = &amp;#34;Valere JEANTET&amp;#34; creatoremail = &amp;#34;valere.jeantet@gmail.com&amp;#34; lastmodifierdisplayname = &amp;#34;Valere JEANTET&amp;#34; lastmodifieremail = &amp;#34;valere.jeantet@gmail.com&amp;#34; tags = [&amp;#34;tag1&amp;#34;,&amp;#34;tag2&amp;#34;] categories = [&amp;#34;cat1&amp;#34;,&amp;#34;cat2&amp;#34;] weight = 90  title：首字母必须大写，页面才会在目录结构中显示； weight：表示页面在当前目录的显示顺序，数字越小显示越靠前 date：当前页面的更新时间 pre：菜单图标，pre =&amp;quot;&amp;lt;i class=&#39;fa fa-vcard-o&#39; &amp;gt;&amp;lt;/i&amp;gt; &amp;quot; tags: 标签，由hugo默认提供 categories:分类，由hugo默认提供  </description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cat1 on 保多多—帮助与文档中心</title>
+    <link>https://xingwei4225.github.io/categories/cat1/</link>
+    <description>Recent content in Cat1 on 保多多—帮助与文档中心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://xingwei4225.github.io/categories/cat1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://xingwei4225.github.io/getting-start/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xingwei4225.github.io/getting-start/configuration/</guid>
+      <description>&lt;p&gt;When building the website, you can set a theme by using &lt;code&gt;--theme&lt;/code&gt; option. We suggest you to edit your configuration file and set the theme by default. Example with &lt;code&gt;config.toml&lt;/code&gt; format.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
